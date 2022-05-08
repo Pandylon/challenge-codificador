@@ -1,0 +1,296 @@
+body{
+  background: #F3F5FC;
+
+
+}
+
+main{
+  font-family: 'Inter', sans-serif;
+}
+footer{
+
+     background-color: #FFF;
+     width: 100%;
+     bottom:0px;
+     position: fixed;
+     text-align: center;
+ }
+ .creacion{
+     
+     font-size: 13px;
+
+ }
+
+#logo{
+position: static;-
+width: 120px;
+height: 48px;
+left: 0px;
+top: 0px;
+display: inline;
+flex: none;
+order: 0;
+flex-grow: 0;
+margin: 40px 40px;
+
+}
+
+
+
+.rectangulo{
+
+    position: absolute;
+     width: 400px;
+     height:550px;
+     left:800px;
+     top: 20px;
+
+    justify-content: flex-end;
+    background: #FFFFFF;
+    box-shadow: 0px 24px 32px -8px
+    rgba(0 ,0 ,0 , 0.8);
+    border-radius: 32px;
+}
+
+.ingresetexto{ width: 40%;
+margin: 0 0 24px;}
+
+#mensaje{
+        position: absolute;
+        width: 400px;
+        height: 48px;
+        top: 150px;
+        left:240px;
+        border-radius: nullpx;
+        resize: none;
+        border: 0px;
+        background: #F3F5FC;
+
+        font-family: "inter";
+        font-style: normal;
+        font-weight: 400;
+        font-size: 32px;
+        line-height: 48px;
+        text-align: left;
+        letter-spacing: 0em;
+        color: #0A3871;
+
+}
+
+.frame1{
+
+    flex-direction: row;
+    align-items: center;
+    padding: 0px;
+
+    position: absolute;
+    width: 229px;
+    height: 18px;
+    left: 140px;
+    top: 466px;
+
+}
+
+ h2 {
+    position: static;
+    width: 228px;
+    height: 18px;
+    left: 24px;
+    top: 0px;
+
+    font-family: Inter;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 150%;
+
+    color: #495057;
+    opacity: 0.8;
+
+    flex: none;
+    order: 1;
+    flex-grow: 0;
+    margin: 0px 8px;
+
+
+}
+.frame3{
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    padding: 0px;
+
+    position:absolute;
+    width: 580px;
+    height: 57px;
+    left: 150px;
+    top: 500px;
+
+    font-family: Inter;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 19px;
+    text-align: center;
+
+
+}
+
+
+#btnDesencriptar{
+    padding: 24px;
+    position: static;
+    width: 200px;
+    height: 67px;
+    left: 352px;
+    top: 0px;
+
+    background: #D8DFE8;
+    border: 1px solid #0A3871;
+    box-sizing: border-box;
+    border-radius: 24px;
+    color: #0A3871;
+
+    flex: none;
+    order: 1;
+    flex-grow: 0;
+    margin: 0px 24px;
+
+}
+
+#btnEncriptar {
+    padding: 24px;
+    position: static;
+    width: 200px;
+    height: 67px;
+    left: 352px;
+    top: 0px;
+
+    background: #0A3871;
+    border: 1px solid #0A3871;
+    box-sizing: border-box;
+    border-radius: 24px;
+    color: #F3F5FC;
+
+    flex: none;
+    order: 0;
+    flex-grow: 0;
+    margin: 0px 24px;
+
+
+}
+
+
+
+#tex{
+
+    position: absolute;
+    width: 366px;
+    height: 400px;
+    top: 72px;
+    left:815px;
+    border-radius: nullpx;
+    resize: none;
+    border: 0px;
+    background:#FFFFFF ;
+
+    font-family: "inter";
+    font-style: normal;
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 36px;
+    /*line-height: 150%;*/
+    text-align: left;
+    letter-spacing: 0em;
+        color: #0A3871;
+
+
+}
+
+#frame5{
+    position: absolute;
+    width: 336px;
+    height: 122px;
+    left: 835px;
+    top: 400px;
+}
+
+#texto1{
+        position: static;
+        height: 30px;
+        left: 0px;
+        top: 0px;
+
+        font-family: Inter;
+        font-style: normal;
+        font-weight: 700;
+        font-size: 16px;
+        line-height: 120%;
+        text-align: center;
+        color: #343A40;
+
+        flex: none;
+        order: 0;
+        align-self: stretch;
+        flex-grow: 0;
+        margin: 16px 0px;
+    }
+
+#texto2{
+    position: static;
+    height: 48px;
+    left: 0;
+    top: 74px;
+
+    font-family: Inter;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 150%;
+    font-size: 14px;
+    text-align: center;
+    color: #495057;
+
+    flex: none;
+    order: 0;
+    align-self: stretch;
+    flex-grow: 1;
+    margin: 16px 0px;
+
+}
+
+#munheco{
+
+    position: absolute;
+
+    width: 236px;
+    height: 204px;
+    left: 880px;
+    top: 150px;
+
+}
+
+
+
+
+#btnCopiar{
+
+
+
+    flex-direction: row;
+    align-items: flex-start;
+
+
+    position: absolute;
+    width: 80px;
+    height: 27px;
+    left: 960px;
+    top: 530px;
+
+    background: #D8DFE8;
+    border: 1px solid #0A3871;
+    box-sizing: border-box;
+    border-radius: 24px;
+    text-align: center;
+    color: #0A3871;
+
+}

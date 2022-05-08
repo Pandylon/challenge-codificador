@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html >
+<head>
+    <meta charset="UTF-8">
+    <meta name="Viewport" content="widht=device-width">
+    <title>Encriptador de Texto</title>
+    <link rel="stylesheet" href="reset.css">
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300&display=swap" rel="stylesheet">
+    <script type="text/javascript" src="script.js"></script>
+
+
+
+</head>
+  <body >
+    <header>
+      <div >
+
+        <h1><img src="imagen/Logo.png" id="logo" alt="logo"></h1>
+
+     </div>
+  </header>
+
+  <main>
+
+    <form>
+      <seccion>
+         <div class="ingresetexto">
+             <label for="mensaje"></label>
+             <textarea  cols="70" rows="10" style="text-transform:lowercase" autocapitalize="none" id="mensaje" placeholder="Ingrese el texto aqui"></textarea>
+        </div>
+
+         <div class="frame1">
+             <h2 ><img src="imagen/bi_exclamation-circle-fill.png " id="exclamation">Solo letras minúsculas y sin acentos </h2>
+         </div>
+
+         <div class="frame3">
+              <button type="button"  id="btnEncriptar" onclick="encriptar(this)" >Encriptar</button>
+
+              <button type="button" id="btnDesencriptar" onclick="desencriptar(this)">Desencriptar</button>
+
+
+         </div>
+       </section>
+
+         <section>
+
+         <div class="rectangulo">
+
+
+         </div>
+
+         <textarea id="tex"  style="text-transform:lowercase;"></textarea>
+
+          <div id=foto>
+            <img src="imagen/muñeco.png" alt="" id="munheco" >
+          </div>
+             <h3 id="frame5">
+                <p id="texto1"> Ningun mensaje fue encontrado</p>
+                <p id="texto2"> Ingrese el texto que desees encriptar o desencriptar </p>
+             </h3>
+
+
+        <button  type="button"  onclick="copiarAlPortapapeles('this')" id="btnCopiar" >Copiar </button>
+      </section>
+
+
+        </form>
+     </main>
+
+  <footer >
+      <p class="creacion">&copy Gerscovich Paula - 2022</p>
+  </footer>
+</body>
+<script>
