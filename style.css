@@ -22,7 +22,7 @@ footer{
  }
 
 #logo{
-position: static;-
+position: static;
 width: 120px;
 height: 48px;
 left: 0px;
@@ -292,5 +292,32 @@ margin: 0 0 24px;}
     border-radius: 24px;
     text-align: center;
     color: #0A3871;
+
+}
+
+@media screen and (max-width:480px){
+    .rectangulo{
+
+      left: 150px;
+      top: 840px;
+    }
+
+    #tex{
+      left: 170px;
+      top: 892px;
+    }
+    #munheco{
+      left: 200px;
+      top: 880px;
+    }
+    #frame5{
+      left: 200px;
+      top: 1100px;
+    }
+
+  #btnCopiar{
+      left: 300px;
+      top: 1350px;
+    }
 
 }
