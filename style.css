@@ -298,26 +298,26 @@ margin: 0 0 24px;}
 @media screen and (max-width:480px){
     .rectangulo{
 
-      left: 150px;
-      top: 840px;
+      left: 200px;
+      top: 600px;
     }
 
     #tex{
-      left: 170px;
-      top: 892px;
+      left: 215px;
+      top: 652px;
     }
     #munheco{
-      left: 200px;
-      top: 880px;
+      left: 250px;
+      top: 680px;
     }
     #frame5{
-      left: 200px;
-      top: 1100px;
+      left: 235px;
+      top: 950px;
     }
 
   #btnCopiar{
-      left: 300px;
-      top: 1350px;
+      left: 350px;
+      top: 1110px;
     }
 
 }
